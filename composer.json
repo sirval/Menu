@@ -1,5 +1,5 @@
 {
-  "name": "idavoll/menu-module",
+  "name": "sirval/menu-module",
   "type": "asgard-module",
   "description": "Menu module for AsgardCMS. Handles all the menus.",
   "keywords": [
@@ -22,9 +22,9 @@
     "source": "https://github.com/AsgardCms/Menu"
   },
   "require": {
-    "php": ">=7.0.0",
+    "php": ">=7.0.0|^8.0",
     "composer/installers": "~1.0",
-    "nwidart/laravel-menus": "~1.0",
+    "nwidart/laravel-menus": "~7.0",
     "typicms/nestablecollection": "1.1"
   },
   "require-dev": {
